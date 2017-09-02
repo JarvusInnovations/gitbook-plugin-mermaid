@@ -12,6 +12,9 @@
   stroke: #81B1DB;
   stroke-width: 1px;
 }
+.arrowheadPath {
+  fill: lightgrey;
+}
 .edgePath .path {
   stroke: lightgrey;
 }
@@ -252,10 +255,91 @@ text.actor {
   font-size: 18px;
   fill: lightgrey;
 }
-/*
-
-
-*/
+g.classGroup text {
+  fill: purple;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 10px;
+}
+g.classGroup rect {
+  fill: #BDD5EA;
+  stroke: purple;
+}
+g.classGroup line {
+  stroke: purple;
+  stroke-width: 1;
+}
+svg .classLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #BDD5EA;
+  opacity: 0.5;
+}
+svg .classLabel .label {
+  fill: purple;
+  font-size: 10px;
+}
+.relation {
+  stroke: purple;
+  stroke-width: 1;
+  fill: none;
+}
+.composition {
+  fill: purple;
+  stroke: purple;
+  stroke-width: 1;
+}
+#compositionStart {
+  fill: purple;
+  stroke: purple;
+  stroke-width: 1;
+}
+#compositionEnd {
+  fill: purple;
+  stroke: purple;
+  stroke-width: 1;
+}
+.aggregation {
+  fill: #BDD5EA;
+  stroke: purple;
+  stroke-width: 1;
+}
+#aggregationStart {
+  fill: #BDD5EA;
+  stroke: purple;
+  stroke-width: 1;
+}
+#aggregationEnd {
+  fill: #BDD5EA;
+  stroke: purple;
+  stroke-width: 1;
+}
+#dependencyStart {
+  fill: purple;
+  stroke: purple;
+  stroke-width: 1;
+}
+#dependencyEnd {
+  fill: purple;
+  stroke: purple;
+  stroke-width: 1;
+}
+#extensionStart {
+  fill: purple;
+  stroke: purple;
+  stroke-width: 1;
+}
+#extensionEnd {
+  fill: purple;
+  stroke: purple;
+  stroke-width: 1;
+}
+.commit-id,
+.commit-msg,
+.branch-label {
+  fill: lightgrey;
+  color: lightgrey;
+}
 .node text {
   font-family: 'trebuchet ms', verdana, arial;
   font-size: 14px;
